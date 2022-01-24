@@ -17,3 +17,5 @@ Route::get('/', 'PageController@index')->name('home');
 
 Route::get('/film americani', 'MovieUsaController@americanMovie')->name('americanMovie');
 
+Route::get('/film inglesi', 'MovieBritController@britishMovie')->name('britishMovie');
+

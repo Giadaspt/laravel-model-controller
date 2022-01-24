@@ -7,6 +7,10 @@
       <a class="nav-link {{(Route::currentRouteName() === 'americanMovie') ? 'active' : ''}}" href="{{ route('americanMovie') }}">Film americani
       </a>
     </li>
+    <li class="nav-item nav-pills">
+      <a class="nav-link {{(Route::currentRouteName() === 'britishMovie') ? 'active' : ''}}" href="{{ route('britishMovie') }}">Film inglesi
+      </a>
+    </li>
 
   
   </ul>

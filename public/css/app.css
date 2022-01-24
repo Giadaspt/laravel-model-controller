@@ -10022,3 +10022,17 @@ h3 {
 .active {
   color: #f6993f;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movieCard {
+  width: 400px !important;
+}

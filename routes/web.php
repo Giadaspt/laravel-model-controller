@@ -19,3 +19,4 @@ Route::get('/film americani', 'MovieUsaController@americanMovie')->name('america
 
 Route::get('/film inglesi', 'MovieBritController@britishMovie')->name('britishMovie');
 
+

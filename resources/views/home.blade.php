@@ -2,9 +2,9 @@
 
 @section('content')
 
-  <div class="container">
+  <div class="container my-3">
     <h1>
-      home
+      homeddd
     </h1>
   </div>
   

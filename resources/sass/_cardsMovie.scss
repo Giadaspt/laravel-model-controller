@@ -1,0 +1,10 @@
+.container {
+  @include center ('both');
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movieCard {
+  width: 400px !important;
+}
+

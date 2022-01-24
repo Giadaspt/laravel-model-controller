@@ -2,29 +2,34 @@
 
 @section('content')
 
-  <section class="container my-3">
+  <section class="container mt-5">
 
     @forelse ($movies as $movie)
-      <div class="card">
-        <h5>
+      <div class="movieCard p-4">
+        <h4>
           {{ $movie->title }}
-        </h5>
+        </h4>
         <h6>
           {{ $movie->original_title}}
         </h6>
         <p>
+          Data di uscita:
           {{ $movie->date }}
         </p>
         <p>
+          Nazionalità:
           {{ $movie->nationality }}
         </p>
         <p>
+          Voto:
           {{ $movie->vote }}
         </p>
       </div>
-    @empty
-      
-    @endforelse
+        @empty
+          <h3>
+            Nessun Film trovato
+          </h3>
+        @endforelse
   </section>
   
 @endsection

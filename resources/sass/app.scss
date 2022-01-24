@@ -2,10 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
-@import 'variables';
+@import 'resources/sass/variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+@import '/resources/sass/mixin';
 @import '/resources/sass/general';
 @import '/resources/sass/header';
+@import '/resources/sass/cardsMovie';
+
